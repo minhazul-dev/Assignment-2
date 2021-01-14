@@ -1,0 +1,123 @@
+/* <<NAVBAR AND MAIN HEADER>> */
+.btn-header{
+    height: 50px;
+    width: 160px;
+    background-color: #A4BC46;
+    color: white;
+    border-radius:20px;
+    
+}
+.fa-shopping-cart{
+    margin-right: 7%;
+}
+.main-header h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    line-height:80px;
+}
+
+.top-main-section{
+    background-color: #FFFBF0;
+}
+
+
+/* <<WOMANS JACKET>> */
+
+.card img{
+    height: 450px;
+    margin-top: 5%;
+
+}
+.j-title{
+    font-weight: bold;
+}
+
+/* <<ALL JACKETS BUTTONS>> */
+.btn-jackets{
+     float:right;
+     width: 140px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #A4BC46;
+    border-radius:10px;
+
+}
+
+/* <<cards footer edit>> */
+.jackets-footer{
+    background-color: white;
+    border: 0;
+   
+    
+}
+.jackets-footer p{
+    font-size:25px;
+    color:#FABE4C ;
+    font-weight:bold;
+   
+
+}
+
+.card-img-top-bg{
+    background-color: #F1F1F1;
+    border-radius:20px;
+}
+.card-border{
+    border:0;
+    
+    
+}
+
+/* <<LAST PART>> */
+
+.last-cards img{
+    height:92px;
+    width:88px;
+    margin-left:5%;
+
+}
+
+
+
+/* <<CONTACT US>> */
+.contact-us{
+    background-color: #92cac3;
+    /* height: 650px; */
+}
+.list-unstyled a{
+    float: left;
+    margin-right: 5%;
+    font-size: 25px;
+}
+
+
+
+/* <<MEDIA QUERIES>> */
+@media (max-width:992px) {
+    .last-cards h5 ,p, img {
+     text-align: center;
+
+    }
+  }
+
+@media (max-width:992px) {
+    .jackets-heading {
+     text-align: center;
+
+    }
+  }
+@media (max-width:992px) {
+    .icons-l{
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+
+    }
+  }
+@media (max-width:992px) {
+    .j-title {
+     text-align: center;
+  
+
+    }
+  }
